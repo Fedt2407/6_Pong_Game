@@ -58,6 +58,7 @@ while game_is_on:
             ball.bounce_y()
             brick.hit()
             bricks.remove(brick)
+            scoreboard.increase_score()
             if len(bricks) == 0:
                 game_is_on = False
                 scoreboard.victory()
