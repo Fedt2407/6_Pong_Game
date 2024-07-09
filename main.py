@@ -54,7 +54,7 @@ while game_is_on:
 
     # Detect collision with bricks
     for brick in bricks:
-        if ball.distance(brick) < 30:
+        if ball.distance(brick) < 40:
             ball.bounce_y()
             brick.hit()
             bricks.remove(brick)

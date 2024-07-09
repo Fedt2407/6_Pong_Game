@@ -43,5 +43,4 @@ class Ball(Turtle):
     def reset_position(self):
         self.home()
         self.bounce_x()
-        self.move_speed += 0.1
         self.is_launched = False
